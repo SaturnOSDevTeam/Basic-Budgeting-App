@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Basic Budgeting App</title>
+</head>
+<body>
+  <h1>Basic Budgeting App</h1>
+  
+  <h2>Expenses</h2>
+  <ul id="expense-list"></ul>
+  <input type="text" id="expense-title" placeholder="Expense">
+  <input type="number" id="expense-amount" placeholder="Amount">
+  <button id="add-expense">Add Expense</button>
+  <p>Total Expense: $<span id="total-expense">0.00</span></p>
+  
+  <h2>Budget</h2>
+  <input type="number" id="budget-limit" placeholder="Budget Limit">
+  <p id="budget-warning" class="warning">Budget Exceeded!</p>
+  
+  <script src="script.js"></script>
+</body>
+</html>
